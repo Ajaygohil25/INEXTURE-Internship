@@ -1,0 +1,342 @@
+.nav-item-style
+{
+    color: #9F9F9F;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.button {
+    background: linear-gradient(90deg, #7F75E1 0%, #5445E5 100%);
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+  }
+  
+  .button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  @media (min-width: 700px) and (max-width: 950px) {
+    #id1 {
+      grid-area: 500px 500px;
+      grid-column: 1/span 3;
+      margin: 0px;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+  }
+
+  
+/* 
+  media query for small devices  */
+
+  @media (max-width:576px)
+  {
+    .grp1
+    {
+      max-width: max-content !important;
+      padding-right: 5px !important;
+      padding-left: 5px !important;
+    }
+    .grp1 #content
+    {
+      text-align: center !important;
+
+    }
+    .grp1 #header
+    {
+      font-size: 17px !important;
+      text-align: center !important;
+    }
+    .grp1 #btn1{
+     
+      padding: 7px !important;
+      font-size: 12px !important;
+      margin-right:7px !important;
+    }
+    .grp1 #img1{
+      margin-right: 10px !important;
+      height: 30px !important;
+      width: 30px !important;
+    }
+    .grp1 #watch{
+      font-size: 12px !important ;
+    }
+    .grp1 #btngrp
+    {
+      text-align: center !important;
+    }
+    .grp1 p
+    {
+      width: 100% !important;
+      font-size: 12px !important;
+    }
+    .card1 p
+    {
+        font-size: 15px !important;
+    }
+    .cardCol
+    {
+      justify-content: center !important;
+      align-items: center !important;
+    }
+    .cardCol img
+    {
+       height: 30px !important;
+       width: 30 !important;
+       margin-top: 10px !important;
+       margin-bottom: 10px !important;
+    }
+    .cardCol p
+    {
+      font-size: 13px !important;
+    }
+    #cardAbout
+    {
+      margin-left: 5px !important;
+    }
+    .cardCol .card{
+      width: 250px !important;
+    }
+    .cardCol #lastcard{
+      margin-left: 0px !important;
+      
+    }
+    .cardCol #lastcard img
+    {
+      text-align: center !important;
+      margin-left: 100px !important;
+    }
+    
+    #tab ul li{
+      display: inline !important;
+    }
+    
+    #story
+    {
+      margin: 2px !important;
+      margin-bottom: 10px  !important;
+      font-size: 15px !important;
+    }
+    
+    .knowus #knowsustext
+    {
+      padding: 0px !important;
+
+      font-size: 8px !important;
+    }
+    .knowus #knowsustext p 
+    {
+      font-size: 10px !important;
+    }
+    #navid 
+    {
+      margin: 2px !important;
+      font-size: 10px !important;
+    }
+    #kn5
+    {
+      font-size: 12px !important;
+    }
+    #navid  .button 
+    {
+      margin: 2px !important;
+      font-size: 10px !important;
+    }
+    #knowsustext .button 
+    {
+      margin: 2px !important;
+      font-size: 10px !important;
+    }
+    .price .card #priceimg
+    {
+      height: 100px !important;
+      width: 110px !important;
+    }
+    .price .col p
+    {
+          font-size: 10px !important;
+    }
+    #join
+    {
+      font-size: 15px !important;
+    }
+    #joinBtn
+    {
+      padding: 4px !important;
+      font-size: 10px !important;
+    }
+    .footer
+    {
+      text-align: center !important;
+    }
+
+    .footer .coll
+    {
+      margin-bottom: 15px !important; 
+    }
+    #testimg
+    {
+      display: none;
+    }
+    #join
+    {
+      font-size: 15px !important;
+    }
+    .testconent p
+    {
+       font-size: 12px !important;
+    }
+    #txt
+    {
+      text-align: center;
+    }
+  }
+  
+@media (min-width:577px)  and (max-width:768px)
+{
+  .grp1
+  {
+    max-width: max-content !important;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+  .grp1 #btngrp
+  {
+    text-align: center !important;
+  }
+  .grp1 #header
+    {
+     
+      text-align: center !important;
+    }
+    .cardCol 
+    {
+     
+      padding-left: 20PX  !important;
+    }
+    .cardCol img
+    {
+       height: 40px !important;
+       width: 40 !important;
+       margin-top: 10px !important;
+       margin-bottom: 10px !important;
+    }
+    .cardCol p
+    {
+      font-size: 13px !important;
+    }
+    #cardAbout
+    {
+      margin-left: 5px !important;
+    }
+    .cardCol .card{
+      width: 450px !important;
+    }
+    .cardCol #lastcard{
+      margin-left: 0px !important;
+      margin-right: 20px !important;
+      
+    }
+    .cardCol #lastcard img
+    {
+      text-align: center !important;
+      margin-left: 200px !important;
+    }
+    #story
+    {
+      margin: 2px !important;
+      margin-bottom: 20px  !important;
+      font-size: 20px !important;
+    }
+    .price .card #priceimg
+    {
+      height: 130px !important;
+      width: 150px !important;
+    }
+    .price .col p
+    {
+          font-size: 10px !important;
+    }
+    #testimg
+    {
+      display: none;
+    }
+    #join
+    {
+      font-size: 15px !important;
+    }
+  
+}
+
+@media (min-width:766px)and (max-width:994px)
+  {
+    
+    .grp1 #btn1{
+      margin-right: 1px !important;
+    }
+    .grp1 #img1{
+      margin-right: 2px !important;
+    }
+    .grp1 #watch{
+      font-size: 12px !important ;
+    }
+    .knowus 
+    {
+     margin: 0px !important;
+     margin-left: 70px !important;
+     padding: 0px !important;
+       display: grid !important;
+      justify-content: center !important;
+      align-content: center !important;
+       margin: auto;
+    
+
+    }
+    .knowus #knowsustext
+    {
+      padding: 10px !important;
+      font-size: 10px !important;
+    }
+    .knowus #knowsustext p
+    {
+      font-size: 10px !important;
+    }
+    .price
+    {
+     
+      padding: 0px !important;
+      margin: 20px !important;
+      margin-left: 90px !important;
+
+    }
+    .price .col p
+    {
+          font-size: 10px !important;
+    }
+    .testimonial
+    {
+      margin: 40px !important;
+      margin-left: 80px !important;
+    }
+    .testimonial .testconent p
+    {
+       font-size: 12px !important;
+    }
+    
+  }
+  
+/* 
+  Extra small (xs): For portrait phones, less than 576 pixels
+Small (sm): For landscape phones, 576 pixels and up
+Medium (md): For tablets, 768 pixels and up
+Large (lg): For desktops, 992 pixels and up
+Extra large (xl): For large desktops, 1200 pixels and up */
