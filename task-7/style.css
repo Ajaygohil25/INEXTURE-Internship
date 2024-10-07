@@ -1,0 +1,34 @@
+.font
+{
+text-align: left;
+color: #949494;
+
+}
+.containerc
+{
+    width: 45%;
+}
+.img-container
+{
+    background-color: #F5F5F5;
+}
+.pheader
+{
+    color: var(--unnamed-color-20122c);
+    text-align: center;
+    font: normal bold 30px/24px;
+    font-family: Roboto;
+    letter-spacing: 3px;
+    color: #20122C;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.services
+{
+    background-color: white;
+}
+.mt-5 
+{
+    margin-top: 50%;
+}
