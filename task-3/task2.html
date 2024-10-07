@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+          height: 300px;
+          width: 250px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgb(226, 223, 219);
+          color: white;
+          position: relative;
+          text-align: center;
+          left: 30%;
+          border-radius: 50px;
+          
+     }
+     .container::before{
+        content: "";
+          height: 300px;
+          width: 250px;
+          background-color: rgb(201, 125, 39);
+          color: white;
+          position: absolute;
+          text-align: center;
+          left: 30%;
+          z-index: -1;
+          top:25%;
+          border-radius: 50px;
+          
+     }
+     .container::after{
+          height: 300px;
+          width: 250px;
+          content: "";
+          background-color: rgb(30, 42, 75);
+          color: white;
+          position: absolute;
+          text-align: center;
+          left: 55%;
+          z-index: -2;
+          top:50%;
+          border-radius: 50px;
+          
+          
+     }
+    </style>
+
+</head>
+<body style="background-color: rgb(23, 105, 105);">
+    <div class="container">
+    </div>
+
+    
+</body>
+</html>

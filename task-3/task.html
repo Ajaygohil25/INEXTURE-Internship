@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before and after task</title>
+    <style>
+       .container {
+          height: 400px;
+          width: 400px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: grey;
+          color: white;
+          position: relative;
+          text-align: center;
+          left: 30%;
+    }
+    .container::before{
+          height: 300px;
+          width: 300px;
+          position: absolute;
+          content:"box before" ;
+          margin: 0px;
+          background-color: #185aa6;
+          color: white;
+          left: -50%;
+          z-index: -1;
+          
+    }
+    .container::after{
+        height: 300px;
+        width: 300px;
+          position: absolute;
+          content:"box before" ;
+          margin: 0px;
+          background-color: #a65d18;
+          color: white;
+          right: -50%;
+          z-index: -1;
+          
+    }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+      box
+    </div>
+</body>
+</html>
